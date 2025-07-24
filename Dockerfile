@@ -52,4 +52,4 @@ USER ${USERNAME}
   #CMD curl -f http://localhost:8080/actuator/health || exit 1
 
 # 컨테이너 실행 명령어
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "cart-service-app.jar"]
