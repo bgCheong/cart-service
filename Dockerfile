@@ -48,8 +48,7 @@ RUN chown ${USERNAME}:${USERNAME} cart-service-app.jar
 # non-root 사용자로 전환
 USER ${USERNAME}
 
-#HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
-  #CMD curl -f http://localhost:8080/actuator/health || exit 1
+ENV SPRING_PROFILES_ACTIVE=docker
 
 # 컨테이너 실행 명령어
 ENTRYPOINT ["java", "-jar", "cart-service-app.jar"]

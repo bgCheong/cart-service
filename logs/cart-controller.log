@@ -1,4 +1,8 @@
-2025-07-24 08:47:05.915 [http-nio-8084-exec-1] INFO  c.e.c.controller.CartController - 장바구니 Id : test
-2025-07-24 08:47:05.918 [http-nio-8084-exec-1] INFO  c.e.c.controller.CartController - 들어온 데이터 : AddCartItemDto(productId=1, quantity=1)
-2025-07-24 08:50:29.118 [http-nio-8084-exec-4] INFO  c.e.c.controller.CartController - 장바구니 Id : test
-2025-07-24 08:50:29.118 [http-nio-8084-exec-4] INFO  c.e.c.controller.CartController - 들어온 데이터 : AddCartItemDto(productId=1, quantity=3)
+2025-07-25 10:21:47.222 [http-nio-8084-exec-2] INFO  c.e.c.controller.CartController - 장바구니 Id : test
+2025-07-25 10:21:47.225 [http-nio-8084-exec-2] INFO  c.e.c.controller.CartController - 들어온 데이터 : AddCartItemDto(productId=2, quantity=3)
+2025-07-25 10:23:01.746 [http-nio-8084-exec-1] INFO  c.e.c.controller.CartController - 장바구니 Id : test
+2025-07-25 10:23:01.747 [http-nio-8084-exec-1] INFO  c.e.c.controller.CartController - 들어온 데이터 : AddCartItemDto(productId=1, quantity=6)
+2025-07-25 10:23:41.199 [http-nio-8084-exec-4] INFO  c.e.c.controller.CartController - 장바구니 Id : test
+2025-07-25 10:23:41.200 [http-nio-8084-exec-4] INFO  c.e.c.controller.CartController - 들어온 데이터 : AddCartItemDto(productId=1, quantity=9)
+2025-07-25 11:17:18.722 [http-nio-8084-exec-1] INFO  c.e.c.controller.CartController - 장바구니 Id : test
+2025-07-25 11:17:18.723 [http-nio-8084-exec-1] INFO  c.e.c.controller.CartController - 들어온 데이터 : AddCartItemDto(productId=2, quantity=10)
