@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: cart-service
+
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+    import: "configserver:http://config-service:8888"
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+    import: "configserver:http://localhost:8888"
